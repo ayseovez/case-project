@@ -1,0 +1,716 @@
+2022-04-02 14:45:58.304  INFO 9748 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 9748 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 14:45:58.311  INFO 9748 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 14:45:58.790  INFO 9748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 14:45:58.855  INFO 9748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 14:45:59.266  INFO 9748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 14:45:59.277  INFO 9748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 14:45:59.278  INFO 9748 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 14:45:59.416  INFO 9748 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 14:45:59.416  INFO 9748 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1072 ms
+2022-04-02 14:45:59.554  INFO 9748 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 14:45:59.628  INFO 9748 --- [cluster-rtt-ClusterId{value='6248377702b5052fd34bb745', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:222}] to localhost:27017
+2022-04-02 14:45:59.628  INFO 9748 --- [cluster-ClusterId{value='6248377702b5052fd34bb745', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:223}] to localhost:27017
+2022-04-02 14:45:59.631  INFO 9748 --- [cluster-ClusterId{value='6248377702b5052fd34bb745', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=24862400}
+2022-04-02 14:46:00.211  INFO 9748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 14:46:00.224  INFO 9748 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.317 seconds (JVM running for 4.315)
+2022-04-02 14:57:10.382  INFO 9944 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 9944 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 14:57:10.386  INFO 9944 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 14:57:10.881  INFO 9944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 14:57:10.957  INFO 9944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 14:57:11.373  INFO 9944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 14:57:11.383  INFO 9944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 14:57:11.384  INFO 9944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 14:57:11.519  INFO 9944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 14:57:11.519  INFO 9944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1092 ms
+2022-04-02 14:57:11.654  INFO 9944 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 14:57:11.722  INFO 9944 --- [cluster-rtt-ClusterId{value='62483a176683f07ee245c005', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:228}] to localhost:27017
+2022-04-02 14:57:11.722  INFO 9944 --- [cluster-ClusterId{value='62483a176683f07ee245c005', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:229}] to localhost:27017
+2022-04-02 14:57:11.726  INFO 9944 --- [cluster-ClusterId{value='62483a176683f07ee245c005', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18591100}
+2022-04-02 14:57:12.308  INFO 9944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 14:57:12.320  INFO 9944 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.807 seconds (JVM running for 4.273)
+2022-04-02 15:04:50.922  INFO 9944 --- [http-nio-446-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 15:04:50.931  INFO 9944 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 15:04:50.996  INFO 9944 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 65 ms
+2022-04-02 15:04:51.601  INFO 9944 --- [http-nio-446-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:231}] to localhost:27017
+2022-04-02 15:04:51.733  INFO 9944 --- [http-nio-446-exec-1] c.g.a.r.service.impl.BookServiceImpl     : Angels and Demons book registered
+2022-04-02 15:05:00.660  INFO 9944 --- [http-nio-446-exec-3] c.g.a.r.service.impl.BookServiceImpl     : Angels and Demon book registered
+2022-04-02 15:06:18.634 ERROR 9944 --- [http-nio-446-exec-4] c.g.a.r.service.impl.OrderServiceImpl    : Order hasnot been registered for Customer - ayse.ovez@gmail.com null
+2022-04-02 15:07:16.965  INFO 12988 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 12988 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 15:07:16.968  INFO 12988 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 15:07:17.632  INFO 12988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 15:07:17.721  INFO 12988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 15:07:18.270  INFO 12988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 15:07:18.283  INFO 12988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 15:07:18.283  INFO 12988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 15:07:18.434  INFO 12988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 15:07:18.435  INFO 12988 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1419 ms
+2022-04-02 15:07:18.609  INFO 12988 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 15:07:18.696  INFO 12988 --- [cluster-rtt-ClusterId{value='62483c7641d6dc03ea83cfe4', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:232}] to localhost:27017
+2022-04-02 15:07:18.696  INFO 12988 --- [cluster-ClusterId{value='62483c7641d6dc03ea83cfe4', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:233}] to localhost:27017
+2022-04-02 15:07:18.700  INFO 12988 --- [cluster-ClusterId{value='62483c7641d6dc03ea83cfe4', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20938300}
+2022-04-02 15:07:19.520  INFO 12988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 15:07:19.536  INFO 12988 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 3.186 seconds (JVM running for 4.847)
+2022-04-02 15:07:40.584  INFO 12988 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 15:07:40.585  INFO 12988 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 15:07:40.586  INFO 12988 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 15:07:40.735 ERROR 12988 --- [http-nio-446-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class java.util.stream.Stream]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `java.util.stream.Stream` (no Creators, like default constructor, exist): abstract types either need to be mapped to concrete types, have custom deserializer, or contain additional type information
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 13] (through reference chain: com.getir.assessment.readingisgood.payload.request.CreateOrderRequest["books"])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `java.util.stream.Stream` (no Creators, like default constructor, exist): abstract types either need to be mapped to concrete types, have custom deserializer, or contain additional type information
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 13] (through reference chain: com.getir.assessment.readingisgood.payload.request.CreateOrderRequest["books"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1904) ~[jackson-databind-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1349) ~[jackson-databind-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.AbstractDeserializer.deserialize(AbstractDeserializer.java:274) ~[jackson-databind-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:391) ~[jackson-databind-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322) ~[jackson-databind-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682) ~[jackson-databind-2.13.2.jar:2.13.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-04-02 15:14:26.999  INFO 9628 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 9628 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 15:14:27.005  INFO 9628 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 15:14:27.662  INFO 9628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 15:14:27.726  INFO 9628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 15:14:28.216  INFO 9628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 15:14:28.228  INFO 9628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 15:14:28.229  INFO 9628 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 15:14:28.370  INFO 9628 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 15:14:28.370  INFO 9628 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1306 ms
+2022-04-02 15:14:28.516  INFO 9628 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 15:14:28.574  INFO 9628 --- [cluster-ClusterId{value='62483e244990ce260ce2579b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:235}] to localhost:27017
+2022-04-02 15:14:28.574  INFO 9628 --- [cluster-rtt-ClusterId{value='62483e244990ce260ce2579b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:234}] to localhost:27017
+2022-04-02 15:14:28.577  INFO 9628 --- [cluster-ClusterId{value='62483e244990ce260ce2579b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=15914800}
+2022-04-02 15:14:29.152  INFO 9628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 15:14:29.165  INFO 9628 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.877 seconds (JVM running for 4.171)
+2022-04-02 15:15:12.313  INFO 9628 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 15:15:12.314  INFO 9628 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 15:15:12.316  INFO 9628 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 15:15:22.140  INFO 9628 --- [http-nio-446-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:236}] to localhost:27017
+2022-04-02 15:15:35.426 ERROR 9628 --- [http-nio-446-exec-2] c.g.a.r.service.impl.OrderServiceImpl    : Order hasnot been registered for Customer - ayse.ovez@gmail.com null
+2022-04-02 15:18:40.921 ERROR 9628 --- [http-nio-446-exec-5] c.g.a.r.service.impl.OrderServiceImpl    : Order hasnot been registered for Customer - ayse.ovez@gmail.com null
+2022-04-02 15:18:50.151  INFO 5064 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 5064 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 15:18:50.154  INFO 5064 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 15:18:50.700  INFO 5064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 15:18:50.766  INFO 5064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 15:18:51.226  INFO 5064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 15:18:51.237  INFO 5064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 15:18:51.238  INFO 5064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 15:18:51.371  INFO 5064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 15:18:51.372  INFO 5064 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1179 ms
+2022-04-02 15:18:51.518  INFO 5064 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 15:18:51.592  INFO 5064 --- [cluster-rtt-ClusterId{value='62483f2bc23684542f18450a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:237}] to localhost:27017
+2022-04-02 15:18:51.592  INFO 5064 --- [cluster-ClusterId{value='62483f2bc23684542f18450a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:238}] to localhost:27017
+2022-04-02 15:18:51.595  INFO 5064 --- [cluster-ClusterId{value='62483f2bc23684542f18450a', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19092100}
+2022-04-02 15:18:52.245  INFO 5064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 15:18:52.259  INFO 5064 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.591 seconds (JVM running for 4.0)
+2022-04-02 15:19:09.334  INFO 5064 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 15:19:09.335  INFO 5064 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 15:19:09.336  INFO 5064 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 15:25:12.095  INFO 5064 --- [http-nio-446-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:239}] to localhost:27017
+2022-04-02 15:25:12.680 ERROR 5064 --- [http-nio-446-exec-2] c.g.a.r.service.impl.OrderServiceImpl    : Order hasnot been registered for Customer - ayse.ovez@gmail.com null
+2022-04-02 15:25:39.156  INFO 2036 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 2036 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 15:25:39.160  INFO 2036 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 15:25:39.717  INFO 2036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 15:25:39.790  INFO 2036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 15:25:40.241  INFO 2036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 15:25:40.251  INFO 2036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 15:25:40.251  INFO 2036 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 15:25:40.391  INFO 2036 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 15:25:40.392  INFO 2036 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1187 ms
+2022-04-02 15:25:40.555  INFO 2036 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 15:25:40.632  INFO 2036 --- [cluster-ClusterId{value='624840c4f6f7877056db54bc', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:241}] to localhost:27017
+2022-04-02 15:25:40.632  INFO 2036 --- [cluster-rtt-ClusterId{value='624840c4f6f7877056db54bc', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:240}] to localhost:27017
+2022-04-02 15:25:40.635  INFO 2036 --- [cluster-ClusterId{value='624840c4f6f7877056db54bc', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=26490900}
+2022-04-02 15:25:41.359  INFO 2036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 15:25:41.372  INFO 2036 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.81 seconds (JVM running for 3.769)
+2022-04-02 15:25:47.674  INFO 2036 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 15:25:47.674  INFO 2036 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 15:25:47.675  INFO 2036 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 15:26:04.334  INFO 2036 --- [http-nio-446-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:242}] to localhost:27017
+2022-04-02 15:26:04.832 ERROR 2036 --- [http-nio-446-exec-2] c.g.a.r.service.impl.OrderServiceImpl    : Order hasnot been registered for Customer - ayse.ovez@gmail.com null
+2022-04-02 15:35:23.933  INFO 6232 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 6232 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 15:35:23.937  INFO 6232 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 15:35:24.567  INFO 6232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 15:35:24.639  INFO 6232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 15:35:25.128  INFO 6232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 15:35:25.139  INFO 6232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 15:35:25.139  INFO 6232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 15:35:25.283  INFO 6232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 15:35:25.283  INFO 6232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1301 ms
+2022-04-02 15:35:25.470  INFO 6232 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 15:35:25.542  INFO 6232 --- [cluster-rtt-ClusterId{value='6248430db683b77db0eed57b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:243}] to localhost:27017
+2022-04-02 15:35:25.542  INFO 6232 --- [cluster-ClusterId{value='6248430db683b77db0eed57b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:244}] to localhost:27017
+2022-04-02 15:35:25.545  INFO 6232 --- [cluster-ClusterId{value='6248430db683b77db0eed57b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20735800}
+2022-04-02 15:35:26.254  INFO 6232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 15:35:26.267  INFO 6232 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.898 seconds (JVM running for 4.034)
+2022-04-02 15:35:39.665  INFO 6232 --- [http-nio-446-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 15:35:39.666  INFO 6232 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 15:35:39.668  INFO 6232 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-02 15:35:39.893  INFO 6232 --- [http-nio-446-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:245}] to localhost:27017
+2022-04-02 15:35:40.064 ERROR 6232 --- [http-nio-446-exec-1] c.g.a.r.service.impl.OrderServiceImpl    : Order hasnot been registered for Customer - ayse.ovez@gmail.com null
+2022-04-02 15:36:46.512  INFO 1712 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 1712 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 15:36:46.515  INFO 1712 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 15:36:47.152  INFO 1712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 15:36:47.249  INFO 1712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 15:36:47.720  INFO 1712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 15:36:47.732  INFO 1712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 15:36:47.733  INFO 1712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 15:36:47.878  INFO 1712 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 15:36:47.879  INFO 1712 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1309 ms
+2022-04-02 15:36:48.032  INFO 1712 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 15:36:48.095  INFO 1712 --- [cluster-ClusterId{value='6248436007d0e8116865c172', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:247}] to localhost:27017
+2022-04-02 15:36:48.095  INFO 1712 --- [cluster-rtt-ClusterId{value='6248436007d0e8116865c172', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:246}] to localhost:27017
+2022-04-02 15:36:48.098  INFO 1712 --- [cluster-ClusterId{value='6248436007d0e8116865c172', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18924900}
+2022-04-02 15:36:48.800  INFO 1712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 15:36:48.813  INFO 1712 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.95 seconds (JVM running for 3.989)
+2022-04-02 15:37:26.366  INFO 1712 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 15:37:26.367  INFO 1712 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 15:37:26.368  INFO 1712 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 15:37:33.600  INFO 1712 --- [http-nio-446-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:248}] to localhost:27017
+2022-04-02 15:38:27.385 ERROR 1712 --- [http-nio-446-exec-2] c.g.a.r.service.impl.OrderServiceImpl    : Order hasnot been registered for Customer - ayse.ovez@gmail.com null
+2022-04-02 15:39:06.502  INFO 4912 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 4912 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 15:39:06.505  INFO 4912 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 15:39:07.099  INFO 4912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 15:39:07.174  INFO 4912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 15:39:07.628  INFO 4912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 15:39:07.639  INFO 4912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 15:39:07.640  INFO 4912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 15:39:07.773  INFO 4912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 15:39:07.774  INFO 4912 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1225 ms
+2022-04-02 15:39:07.924  INFO 4912 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 15:39:07.994  INFO 4912 --- [cluster-ClusterId{value='624843ebe824020fb025c294', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:249}] to localhost:27017
+2022-04-02 15:39:07.994  INFO 4912 --- [cluster-rtt-ClusterId{value='624843ebe824020fb025c294', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:250}] to localhost:27017
+2022-04-02 15:39:07.996  INFO 4912 --- [cluster-ClusterId{value='624843ebe824020fb025c294', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20098000}
+2022-04-02 15:39:08.630  INFO 4912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 15:39:08.644  INFO 4912 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.682 seconds (JVM running for 3.744)
+2022-04-02 15:39:20.588  INFO 4912 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 15:39:20.589  INFO 4912 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 15:39:20.590  INFO 4912 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 15:40:44.050  INFO 4912 --- [http-nio-446-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:251}] to localhost:27017
+2022-04-02 15:42:56.222 ERROR 4912 --- [http-nio-446-exec-2] c.g.a.r.service.impl.OrderServiceImpl    : Order hasnot been registered for Customer - ayse.ovez@gmail.com null
+2022-04-02 16:32:48.410  INFO 4912 --- [cluster-ClusterId{value='624843ebe824020fb025c294', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:701) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:579) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:415) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:374) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:216) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:109) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:131) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:718) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:576) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 5 common frames omitted
+
+2022-04-02 16:32:48.529  INFO 4912 --- [cluster-ClusterId{value='624843ebe824020fb025c294', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:252}] to localhost:27017
+2022-04-02 16:32:48.531  INFO 4912 --- [cluster-ClusterId{value='624843ebe824020fb025c294', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10706200}
+2022-04-02 16:38:30.382  INFO 4912 --- [SpringApplicationShutdownHook] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:255}] to localhost:27017
+2022-04-02 16:39:13.883  INFO 12168 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 12168 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 16:39:13.887  INFO 12168 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 16:39:14.400  INFO 12168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 16:39:14.463  INFO 12168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 16:39:14.858  INFO 12168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 16:39:14.868  INFO 12168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 16:39:14.868  INFO 12168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 16:39:14.992  INFO 12168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 16:39:14.992  INFO 12168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+2022-04-02 16:39:15.118  INFO 12168 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 16:39:15.187  INFO 12168 --- [cluster-ClusterId{value='6248520375e7351cd2e1c27c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:256}] to localhost:27017
+2022-04-02 16:39:15.187  INFO 12168 --- [cluster-rtt-ClusterId{value='6248520375e7351cd2e1c27c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:257}] to localhost:27017
+2022-04-02 16:39:15.191  INFO 12168 --- [cluster-ClusterId{value='6248520375e7351cd2e1c27c', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19270400}
+2022-04-02 16:39:15.757  INFO 12168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 16:39:15.768  INFO 12168 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.953 seconds (JVM running for 4.287)
+2022-04-02 16:39:23.684  INFO 12168 --- [http-nio-446-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 16:39:23.685  INFO 12168 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 16:39:23.686  INFO 12168 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 16:39:23.885 ERROR 12168 --- [http-nio-446-exec-1] c.g.a.r.service.impl.OrderServiceImpl    : Order hasnot been registered for Customer - ayse.ovez@gmail.com null
+2022-04-02 16:39:38.081  INFO 13104 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 13104 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 16:39:38.084  INFO 13104 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 16:39:38.705  INFO 13104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 16:39:38.794  INFO 13104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 16:39:39.292  INFO 13104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 16:39:39.303  INFO 13104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 16:39:39.303  INFO 13104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 16:39:39.435  INFO 13104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 16:39:39.436  INFO 13104 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1310 ms
+2022-04-02 16:39:39.608  INFO 13104 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 16:39:39.702  INFO 13104 --- [cluster-rtt-ClusterId{value='6248521beff4d06e5596247f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:259}] to localhost:27017
+2022-04-02 16:39:39.702  INFO 13104 --- [cluster-ClusterId{value='6248521beff4d06e5596247f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:258}] to localhost:27017
+2022-04-02 16:39:39.706  INFO 13104 --- [cluster-ClusterId{value='6248521beff4d06e5596247f', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20660500}
+2022-04-02 16:39:40.357  INFO 13104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 16:39:40.371  INFO 13104 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.772 seconds (JVM running for 3.74)
+2022-04-02 16:39:45.862  INFO 13104 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 16:39:45.862  INFO 13104 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 16:39:45.863  INFO 13104 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 16:40:14.718 ERROR 13104 --- [http-nio-446-exec-2] c.g.a.r.service.impl.OrderServiceImpl    : Order hasnot been registered for Customer - ayse.ovez@gmail.com null
+2022-04-02 17:09:23.701  INFO 10960 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 10960 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 17:09:23.704  INFO 10960 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 17:09:24.347  INFO 10960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 17:09:24.429  INFO 10960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 17:09:24.901  INFO 10960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 17:09:24.913  INFO 10960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 17:09:24.913  INFO 10960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 17:09:25.052  INFO 10960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 17:09:25.053  INFO 10960 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1300 ms
+2022-04-02 17:09:25.214  INFO 10960 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 17:09:25.285  INFO 10960 --- [cluster-ClusterId{value='62485915041438502b95b80e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:261}] to localhost:27017
+2022-04-02 17:09:25.285  INFO 10960 --- [cluster-rtt-ClusterId{value='62485915041438502b95b80e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:260}] to localhost:27017
+2022-04-02 17:09:25.287  INFO 10960 --- [cluster-ClusterId{value='62485915041438502b95b80e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23385000}
+2022-04-02 17:09:25.981  INFO 10960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 17:09:25.994  INFO 10960 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.937 seconds (JVM running for 4.073)
+2022-04-02 17:20:25.648  INFO 976 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 976 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 17:20:25.651  INFO 976 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 17:20:26.349  INFO 976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 17:20:26.422  INFO 976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 17:20:26.879  INFO 976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 17:20:26.893  INFO 976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 17:20:26.893  INFO 976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 17:20:27.048  INFO 976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 17:20:27.049  INFO 976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1352 ms
+2022-04-02 17:20:27.218  INFO 976 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 17:20:27.290  INFO 976 --- [cluster-rtt-ClusterId{value='62485baba3cc532f80aa4d27', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:264}] to localhost:27017
+2022-04-02 17:20:27.290  INFO 976 --- [cluster-ClusterId{value='62485baba3cc532f80aa4d27', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:263}] to localhost:27017
+2022-04-02 17:20:27.294  INFO 976 --- [cluster-ClusterId{value='62485baba3cc532f80aa4d27', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19307000}
+2022-04-02 17:20:27.968  INFO 976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 17:20:27.983  INFO 976 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 3.17 seconds (JVM running for 4.427)
+2022-04-02 17:21:35.724  INFO 976 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 17:21:35.725  INFO 976 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 17:21:35.726  INFO 976 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 17:21:58.682  INFO 976 --- [http-nio-446-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:265}] to localhost:27017
+2022-04-02 17:23:09.514  INFO 976 --- [http-nio-446-exec-2] c.g.a.r.service.impl.OrderServiceImpl    : Order has been registered for Customer - ayse.ovez@gmail.com
+2022-04-02 17:28:05.599  INFO 8276 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 8276 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 17:28:05.604  INFO 8276 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 17:28:06.231  INFO 8276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 17:28:06.294  INFO 8276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 17:28:06.732  INFO 8276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 17:28:06.744  INFO 8276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 17:28:06.744  INFO 8276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 17:28:06.901  INFO 8276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 17:28:06.901  INFO 8276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1243 ms
+2022-04-02 17:28:07.085  INFO 8276 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 17:28:07.156  INFO 8276 --- [cluster-rtt-ClusterId{value='62485d7789abb662b5b5a94e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:279}] to localhost:27017
+2022-04-02 17:28:07.156  INFO 8276 --- [cluster-ClusterId{value='62485d7789abb662b5b5a94e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:278}] to localhost:27017
+2022-04-02 17:28:07.158  INFO 8276 --- [cluster-ClusterId{value='62485d7789abb662b5b5a94e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18751000}
+2022-04-02 17:28:07.989  INFO 8276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 17:28:08.005  INFO 8276 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.894 seconds (JVM running for 3.744)
+2022-04-02 17:29:20.860  INFO 8276 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 17:29:20.861  INFO 8276 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 17:29:20.862  INFO 8276 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 17:29:28.088  INFO 8276 --- [http-nio-446-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:280}] to localhost:27017
+2022-04-02 17:30:10.237  INFO 8276 --- [http-nio-446-exec-2] c.g.a.r.service.impl.OrderServiceImpl    : Order has been registered for Customer - ayse.ovez@gmail.com
+2022-04-02 17:58:09.846  INFO 12840 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 12840 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 17:58:09.848  INFO 12840 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 17:58:10.518  INFO 12840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 17:58:10.615  INFO 12840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 17:58:11.065  INFO 12840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 17:58:11.076  INFO 12840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 17:58:11.077  INFO 12840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 17:58:11.271  INFO 12840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 17:58:11.272  INFO 12840 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1382 ms
+2022-04-02 17:58:11.448  INFO 12840 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 17:58:11.518  INFO 12840 --- [cluster-rtt-ClusterId{value='6248648347e3a04d9ae014cf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:281}] to localhost:27017
+2022-04-02 17:58:11.518  INFO 12840 --- [cluster-ClusterId{value='6248648347e3a04d9ae014cf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:282}] to localhost:27017
+2022-04-02 17:58:11.521  INFO 12840 --- [cluster-ClusterId{value='6248648347e3a04d9ae014cf', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=17192600}
+2022-04-02 17:58:12.172  INFO 12840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 17:58:12.184  INFO 12840 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.89 seconds (JVM running for 3.962)
+2022-04-02 17:58:25.724  INFO 12840 --- [http-nio-446-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 17:58:25.725  INFO 12840 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 17:58:25.726  INFO 12840 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 17:58:47.565  INFO 12840 --- [http-nio-446-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:283}] to localhost:27017
+2022-04-02 17:59:24.587  INFO 12840 --- [http-nio-446-exec-1] c.g.a.r.service.impl.BookServiceImpl     : Angels and Demons reduced stock
+2022-04-02 17:59:24.897  INFO 12840 --- [http-nio-446-exec-1] c.g.a.r.service.impl.BookServiceImpl     : Angels and Demon reduced stock
+2022-04-02 17:59:45.319  INFO 12840 --- [http-nio-446-exec-1] c.g.a.r.service.impl.OrderServiceImpl    : Order has been registered for Customer - ayse.ovez@gmail.com
+2022-04-02 18:04:18.549  WARN 12840 --- [http-nio-446-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'startDate' for method parameter type Date is not present]
+2022-04-02 18:05:15.505  INFO 132 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 132 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 18:05:15.508  INFO 132 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 18:05:16.169  INFO 132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 18:05:16.248  INFO 132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 18:05:16.721  INFO 132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 18:05:16.733  INFO 132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 18:05:16.733  INFO 132 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 18:05:16.885  INFO 132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 18:05:16.885  INFO 132 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1338 ms
+2022-04-02 18:05:17.043  INFO 132 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 18:05:17.114  INFO 132 --- [cluster-rtt-ClusterId{value='6248662dc77506231e222cf5', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:285}] to localhost:27017
+2022-04-02 18:05:17.114  INFO 132 --- [cluster-ClusterId{value='6248662dc77506231e222cf5', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:284}] to localhost:27017
+2022-04-02 18:05:17.118  INFO 132 --- [cluster-ClusterId{value='6248662dc77506231e222cf5', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18357100}
+2022-04-02 18:05:17.837  INFO 132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 18:05:17.852  INFO 132 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.92 seconds (JVM running for 3.863)
+2022-04-02 18:05:20.498  INFO 132 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 18:05:20.499  INFO 132 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 18:05:20.501  INFO 132 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 18:05:20.535  WARN 132 --- [http-nio-446-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'startDate' for method parameter type Date is not present]
+2022-04-02 18:05:50.260  WARN 132 --- [http-nio-446-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'startDate' for method parameter type Date is not present]
+2022-04-02 18:08:26.489  INFO 9504 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 9504 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 18:08:26.492  INFO 9504 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 18:08:27.054  INFO 9504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 18:08:27.113  INFO 9504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 18:08:27.500  INFO 9504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 18:08:27.510  INFO 9504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 18:08:27.511  INFO 9504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 18:08:27.636  INFO 9504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 18:08:27.637  INFO 9504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1097 ms
+2022-04-02 18:08:27.780  INFO 9504 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 18:08:27.848  INFO 9504 --- [cluster-rtt-ClusterId{value='624866eb36d364290ae4d848', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:287}] to localhost:27017
+2022-04-02 18:08:27.848  INFO 9504 --- [cluster-ClusterId{value='624866eb36d364290ae4d848', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:286}] to localhost:27017
+2022-04-02 18:08:27.851  INFO 9504 --- [cluster-ClusterId{value='624866eb36d364290ae4d848', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18189800}
+2022-04-02 18:08:28.461  INFO 9504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 18:08:28.472  INFO 9504 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.476 seconds (JVM running for 3.409)
+2022-04-02 18:09:25.540  INFO 2420 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 2420 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 18:09:25.543  INFO 2420 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 18:09:26.049  INFO 2420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 18:09:26.125  INFO 2420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 18:09:26.511  INFO 2420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 18:09:26.522  INFO 2420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 18:09:26.522  INFO 2420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 18:09:26.650  INFO 2420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 18:09:26.650  INFO 2420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+2022-04-02 18:09:26.787  INFO 2420 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 18:09:26.855  INFO 2420 --- [cluster-rtt-ClusterId{value='624867267afb724e7419999e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:289}] to localhost:27017
+2022-04-02 18:09:26.855  INFO 2420 --- [cluster-ClusterId{value='624867267afb724e7419999e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:288}] to localhost:27017
+2022-04-02 18:09:26.858  INFO 2420 --- [cluster-ClusterId{value='624867267afb724e7419999e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19265100}
+2022-04-02 18:09:27.501  INFO 2420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 18:09:27.519  INFO 2420 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.525 seconds (JVM running for 3.504)
+2022-04-02 18:09:53.642  INFO 2420 --- [http-nio-446-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 18:09:53.643  INFO 2420 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 18:09:53.644  INFO 2420 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 18:09:53.678  WARN 2420 --- [http-nio-446-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'startDate' for method parameter type Date is not present]
+2022-04-02 18:16:04.593  INFO 12468 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 12468 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 18:16:04.596  INFO 12468 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 18:16:05.161  INFO 12468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 18:16:05.255  INFO 12468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 18:16:05.652  INFO 12468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 18:16:05.663  INFO 12468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 18:16:05.663  INFO 12468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 18:16:05.799  INFO 12468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 18:16:05.800  INFO 12468 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1167 ms
+2022-04-02 18:16:05.958  INFO 12468 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 18:16:06.028  INFO 12468 --- [cluster-rtt-ClusterId{value='624868b54cb30b72850800e9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:290}] to localhost:27017
+2022-04-02 18:16:06.028  INFO 12468 --- [cluster-ClusterId{value='624868b54cb30b72850800e9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:291}] to localhost:27017
+2022-04-02 18:16:06.031  INFO 12468 --- [cluster-ClusterId{value='624868b54cb30b72850800e9', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18569600}
+2022-04-02 18:16:06.606  INFO 12468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 18:16:06.620  INFO 12468 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.515 seconds (JVM running for 3.476)
+2022-04-02 18:16:15.130  INFO 12468 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 18:16:15.132  INFO 12468 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 18:16:15.134  INFO 12468 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-02 18:16:15.179  WARN 12468 --- [http-nio-446-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'startDate' for method parameter type Date is not present]
+2022-04-02 18:19:35.761  WARN 12468 --- [http-nio-446-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'customerId' for method parameter type String is not present]
+2022-04-02 18:20:00.906  INFO 10412 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 10412 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 18:20:00.909  INFO 10412 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 18:20:01.569  INFO 10412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 18:20:01.646  INFO 10412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 18:20:02.141  INFO 10412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 18:20:02.151  INFO 10412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 18:20:02.152  INFO 10412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 18:20:02.283  INFO 10412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 18:20:02.283  INFO 10412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1332 ms
+2022-04-02 18:20:02.455  INFO 10412 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 18:20:02.517  INFO 10412 --- [cluster-rtt-ClusterId{value='624869a23d15a26027793fec', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:293}] to localhost:27017
+2022-04-02 18:20:02.517  INFO 10412 --- [cluster-ClusterId{value='624869a23d15a26027793fec', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:292}] to localhost:27017
+2022-04-02 18:20:02.520  INFO 10412 --- [cluster-ClusterId{value='624869a23d15a26027793fec', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=17089700}
+2022-04-02 18:20:03.227  INFO 10412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 18:20:03.241  INFO 10412 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.874 seconds (JVM running for 3.852)
+2022-04-02 18:20:18.615  INFO 10412 --- [http-nio-446-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 18:20:18.616  INFO 10412 --- [http-nio-446-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 18:20:18.617  INFO 10412 --- [http-nio-446-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 18:20:18.650  WARN 10412 --- [http-nio-446-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'customerId' for method parameter type String is not present]
+2022-04-02 18:25:06.301  INFO 9032 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 9032 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 18:25:06.304  INFO 9032 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 18:25:06.876  INFO 9032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 18:25:06.949  INFO 9032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 18:25:07.433  INFO 9032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 18:25:07.444  INFO 9032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 18:25:07.444  INFO 9032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 18:25:07.579  INFO 9032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 18:25:07.580  INFO 9032 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1240 ms
+2022-04-02 18:25:08.319  INFO 9032 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 18:25:08.389  INFO 9032 --- [cluster-ClusterId{value='62486ad435954a3347491a09', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:294}] to localhost:27017
+2022-04-02 18:25:08.389  INFO 9032 --- [cluster-rtt-ClusterId{value='62486ad435954a3347491a09', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:295}] to localhost:27017
+2022-04-02 18:25:08.392  INFO 9032 --- [cluster-ClusterId{value='62486ad435954a3347491a09', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18993800}
+2022-04-02 18:25:09.011  INFO 9032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 18:25:09.023  INFO 9032 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 3.198 seconds (JVM running for 4.129)
+2022-04-02 18:25:14.237  INFO 9032 --- [http-nio-446-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 18:25:14.238  INFO 9032 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 18:25:14.239  INFO 9032 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 18:25:14.269  WARN 9032 --- [http-nio-446-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'customerId' for method parameter type String is not present]
+2022-04-02 18:29:28.492  INFO 11092 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 11092 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 18:29:28.495  INFO 11092 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 18:29:29.012  INFO 11092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 18:29:29.084  INFO 11092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 18:29:29.523  INFO 11092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 18:29:29.537  INFO 11092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 18:29:29.537  INFO 11092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 18:29:29.684  INFO 11092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 18:29:29.684  INFO 11092 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1147 ms
+2022-04-02 18:29:29.846  INFO 11092 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 18:29:29.926  INFO 11092 --- [cluster-rtt-ClusterId{value='62486bd9d8322b5908de8425', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:296}] to localhost:27017
+2022-04-02 18:29:29.926  INFO 11092 --- [cluster-ClusterId{value='62486bd9d8322b5908de8425', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:297}] to localhost:27017
+2022-04-02 18:29:29.929  INFO 11092 --- [cluster-ClusterId{value='62486bd9d8322b5908de8425', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22498600}
+2022-04-02 18:29:30.582  INFO 11092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 18:29:30.597  INFO 11092 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.591 seconds (JVM running for 3.572)
+2022-04-02 18:29:41.717  INFO 11092 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 18:29:41.718  INFO 11092 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 18:29:41.719  INFO 11092 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 18:29:41.756  WARN 11092 --- [http-nio-446-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'request' for method parameter type OrderListRequest is not present]
+2022-04-02 18:34:16.946  INFO 3136 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 3136 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 18:34:16.949  INFO 3136 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 18:34:17.452  INFO 3136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 18:34:17.509  INFO 3136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 18:34:17.959  INFO 3136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 18:34:17.970  INFO 3136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 18:34:17.970  INFO 3136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 18:34:18.101  INFO 3136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 18:34:18.101  INFO 3136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1103 ms
+2022-04-02 18:34:18.268  INFO 3136 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 18:34:18.329  INFO 3136 --- [cluster-ClusterId{value='62486cfac06304597ef90c4d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:299}] to localhost:27017
+2022-04-02 18:34:18.329  INFO 3136 --- [cluster-rtt-ClusterId{value='62486cfac06304597ef90c4d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:298}] to localhost:27017
+2022-04-02 18:34:18.331  INFO 3136 --- [cluster-ClusterId{value='62486cfac06304597ef90c4d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=17835500}
+2022-04-02 18:34:18.950  INFO 3136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 18:34:18.964  INFO 3136 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.479 seconds (JVM running for 3.308)
+2022-04-02 18:34:42.600  INFO 3136 --- [http-nio-446-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 18:34:42.601  INFO 3136 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 18:34:42.603  INFO 3136 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 18:34:54.782  INFO 3136 --- [http-nio-446-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:300}] to localhost:27017
+2022-04-02 18:40:40.044  INFO 7744 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 7744 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 18:40:40.046  INFO 7744 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 18:40:40.640  INFO 7744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 18:40:40.742  INFO 7744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 18:40:41.279  INFO 7744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 18:40:41.295  INFO 7744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 18:40:41.296  INFO 7744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 18:40:41.496  INFO 7744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 18:40:41.496  INFO 7744 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1414 ms
+2022-04-02 18:40:41.732  INFO 7744 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 18:40:41.815  INFO 7744 --- [cluster-rtt-ClusterId{value='62486e796dab2f7af7f8ef45', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:302}] to localhost:27017
+2022-04-02 18:40:41.815  INFO 7744 --- [cluster-ClusterId{value='62486e796dab2f7af7f8ef45', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:301}] to localhost:27017
+2022-04-02 18:40:41.821  INFO 7744 --- [cluster-ClusterId{value='62486e796dab2f7af7f8ef45', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22132700}
+2022-04-02 18:40:42.681  INFO 7744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 18:40:42.700  INFO 7744 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 3.223 seconds (JVM running for 4.294)
+2022-04-02 18:42:29.431  INFO 7744 --- [http-nio-446-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 18:42:29.432  INFO 7744 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 18:42:29.433  INFO 7744 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 18:42:36.682  INFO 7744 --- [http-nio-446-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:303}] to localhost:27017
+2022-04-02 18:43:03.678  INFO 12128 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 12128 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 18:43:03.681  INFO 12128 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 18:43:04.250  INFO 12128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 18:43:04.309  INFO 12128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 18:43:04.686  INFO 12128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 18:43:04.696  INFO 12128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 18:43:04.697  INFO 12128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 18:43:04.815  INFO 12128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 18:43:04.816  INFO 12128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1100 ms
+2022-04-02 18:43:04.964  INFO 12128 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 18:43:05.036  INFO 12128 --- [cluster-ClusterId{value='62486f08b040416ce6ec67d9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:305}] to localhost:27017
+2022-04-02 18:43:05.036  INFO 12128 --- [cluster-rtt-ClusterId{value='62486f08b040416ce6ec67d9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:304}] to localhost:27017
+2022-04-02 18:43:05.044  INFO 12128 --- [cluster-ClusterId{value='62486f08b040416ce6ec67d9', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23025400}
+2022-04-02 18:43:05.709  INFO 12128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 18:43:05.721  INFO 12128 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.531 seconds (JVM running for 3.5)
+2022-04-02 18:43:08.313  INFO 12128 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 18:43:08.314  INFO 12128 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 18:43:08.315  INFO 12128 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 18:43:15.026  INFO 12128 --- [http-nio-446-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:306}] to localhost:27017
+2022-04-02 18:44:52.116  INFO 4412 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 4412 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 18:44:52.123  INFO 4412 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 18:44:52.958  INFO 4412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 18:44:53.021  INFO 4412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 18:44:53.743  INFO 4412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 18:44:53.760  INFO 4412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 18:44:53.761  INFO 4412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 18:44:53.918  INFO 4412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 18:44:53.919  INFO 4412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1687 ms
+2022-04-02 18:44:54.576  INFO 4412 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 18:44:54.709  INFO 4412 --- [cluster-rtt-ClusterId{value='62486f760298546609951643', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:308}] to localhost:27017
+2022-04-02 18:44:54.709  INFO 4412 --- [cluster-ClusterId{value='62486f760298546609951643', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:307}] to localhost:27017
+2022-04-02 18:44:54.712  INFO 4412 --- [cluster-ClusterId{value='62486f760298546609951643', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=36411100}
+2022-04-02 18:44:55.382  INFO 4412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 18:44:55.394  INFO 4412 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 3.975 seconds (JVM running for 5.061)
+2022-04-02 18:45:04.714  INFO 4412 --- [http-nio-446-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 18:45:04.715  INFO 4412 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 18:45:04.716  INFO 4412 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 18:45:13.269  INFO 4412 --- [http-nio-446-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:309}] to localhost:27017
+2022-04-02 19:01:20.871  INFO 4412 --- [cluster-ClusterId{value='62486f760298546609951643', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:701) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:579) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:415) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:374) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:216) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:109) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:131) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:718) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:576) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 5 common frames omitted
+
+2022-04-02 19:01:20.927  INFO 4412 --- [cluster-ClusterId{value='62486f760298546609951643', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:310}] to localhost:27017
+2022-04-02 19:01:20.928  INFO 4412 --- [cluster-ClusterId{value='62486f760298546609951643', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6467300}
+2022-04-02 19:02:11.038  INFO 4412 --- [SpringApplicationShutdownHook] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:313}] to localhost:27017
+2022-04-02 19:02:17.853  INFO 7952 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 7952 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 19:02:17.856  INFO 7952 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 19:02:18.508  INFO 7952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 19:02:18.576  INFO 7952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 19:02:19.030  INFO 7952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 19:02:19.040  INFO 7952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 19:02:19.041  INFO 7952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 19:02:19.185  INFO 7952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 19:02:19.186  INFO 7952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1288 ms
+2022-04-02 19:02:19.364  INFO 7952 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 19:02:19.433  INFO 7952 --- [cluster-ClusterId{value='6248738b06a71f1f858a672d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:314}] to localhost:27017
+2022-04-02 19:02:19.433  INFO 7952 --- [cluster-rtt-ClusterId{value='6248738b06a71f1f858a672d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:315}] to localhost:27017
+2022-04-02 19:02:19.436  INFO 7952 --- [cluster-ClusterId{value='6248738b06a71f1f858a672d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=16872700}
+2022-04-02 19:02:20.106  INFO 7952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 19:02:20.120  INFO 7952 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.818 seconds (JVM running for 4.025)
+2022-04-02 19:02:24.371  INFO 7952 --- [http-nio-446-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 19:02:24.372  INFO 7952 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 19:02:24.373  INFO 7952 --- [http-nio-446-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 19:02:44.731  INFO 7952 --- [http-nio-446-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:316}] to localhost:27017
+2022-04-02 19:05:34.430  INFO 5580 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 5580 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 19:05:34.434  INFO 5580 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 19:05:35.249  INFO 5580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 19:05:35.348  INFO 5580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 19:05:35.856  INFO 5580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 19:05:35.867  INFO 5580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 19:05:35.867  INFO 5580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 19:05:36.008  INFO 5580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 19:05:36.010  INFO 5580 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1516 ms
+2022-04-02 19:05:36.193  INFO 5580 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 19:05:36.271  INFO 5580 --- [cluster-ClusterId{value='624874507f5d694b576bee6c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:317}] to localhost:27017
+2022-04-02 19:05:36.271  INFO 5580 --- [cluster-rtt-ClusterId{value='624874507f5d694b576bee6c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:318}] to localhost:27017
+2022-04-02 19:05:36.275  INFO 5580 --- [cluster-ClusterId{value='624874507f5d694b576bee6c', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20978900}
+2022-04-02 19:05:37.099  INFO 5580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 19:05:37.113  INFO 5580 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 3.713 seconds (JVM running for 5.038)
+2022-04-02 19:06:02.166  INFO 5580 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 19:06:02.166  INFO 5580 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 19:06:02.167  INFO 5580 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 19:06:13.988  INFO 5580 --- [http-nio-446-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:319}] to localhost:27017
+2022-04-02 19:21:53.812  INFO 11240 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 11240 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 19:21:53.815  INFO 11240 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 19:21:54.729  INFO 11240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 19:21:54.854  INFO 11240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 19:21:55.449  INFO 11240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 19:21:55.460  INFO 11240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 19:21:55.460  INFO 11240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 19:21:55.621  INFO 11240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 19:21:55.622  INFO 11240 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1759 ms
+2022-04-02 19:21:55.824  INFO 11240 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 19:21:55.934  INFO 11240 --- [cluster-rtt-ClusterId{value='62487823ec3468766267ecdf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:320}] to localhost:27017
+2022-04-02 19:21:55.934  INFO 11240 --- [cluster-ClusterId{value='62487823ec3468766267ecdf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:321}] to localhost:27017
+2022-04-02 19:21:55.937  INFO 11240 --- [cluster-ClusterId{value='62487823ec3468766267ecdf', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=49315100}
+2022-04-02 19:21:56.540  INFO 11240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 19:21:56.556  INFO 11240 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 3.353 seconds (JVM running for 4.385)
+2022-04-02 19:22:09.366  INFO 11240 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 19:22:09.367  INFO 11240 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 19:22:09.368  INFO 11240 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 19:22:23.136  INFO 11240 --- [http-nio-446-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:322}] to localhost:27017
+2022-04-02 19:22:48.375  INFO 4248 --- [main] c.g.a.r.ReadingIsGoodApplication         : Starting ReadingIsGoodApplication using Java 11.0.14 on AYEVEZ50A3 with PID 4248 (C:\Users\ayseovez\IdeaProjects\ReadingIsGood\target\classes started by ayseovez in C:\Users\ayseovez\IdeaProjects\ReadingIsGood)
+2022-04-02 19:22:48.378  INFO 4248 --- [main] c.g.a.r.ReadingIsGoodApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-02 19:22:49.025  INFO 4248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-02 19:22:49.110  INFO 4248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 3 MongoDB repository interfaces.
+2022-04-02 19:22:49.535  INFO 4248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 446 (http)
+2022-04-02 19:22:49.543  INFO 4248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 19:22:49.544  INFO 4248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-02 19:22:49.677  INFO 4248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 19:22:49.679  INFO 4248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1262 ms
+2022-04-02 19:22:49.827  INFO 4248 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-02 19:22:49.902  INFO 4248 --- [cluster-ClusterId{value='6248785909e7af31d13fc66d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:323}] to localhost:27017
+2022-04-02 19:22:49.902  INFO 4248 --- [cluster-rtt-ClusterId{value='6248785909e7af31d13fc66d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:324}] to localhost:27017
+2022-04-02 19:22:49.905  INFO 4248 --- [cluster-ClusterId{value='6248785909e7af31d13fc66d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=21144100}
+2022-04-02 19:22:50.548  INFO 4248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 446 (http) with context path ''
+2022-04-02 19:22:50.562  INFO 4248 --- [main] c.g.a.r.ReadingIsGoodApplication         : Started ReadingIsGoodApplication in 2.697 seconds (JVM running for 4.375)
+2022-04-02 19:23:23.998  INFO 4248 --- [http-nio-446-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 19:23:23.998  INFO 4248 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 19:23:23.999  INFO 4248 --- [http-nio-446-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 19:23:57.125  INFO 4248 --- [http-nio-446-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:325}] to localhost:27017
+2022-04-02 20:11:24.630  INFO 4248 --- [cluster-ClusterId{value='6248785909e7af31d13fc66d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:701) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:579) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:415) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:374) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:216) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:109) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:131) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:718) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:576) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 5 common frames omitted
+
+2022-04-02 20:11:24.682  INFO 4248 --- [cluster-ClusterId{value='6248785909e7af31d13fc66d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:326}] to localhost:27017
+2022-04-02 20:11:24.683  INFO 4248 --- [cluster-ClusterId{value='6248785909e7af31d13fc66d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13069300}
+2022-04-02 21:01:22.239  INFO 4248 --- [SpringApplicationShutdownHook] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:329}] to localhost:27017

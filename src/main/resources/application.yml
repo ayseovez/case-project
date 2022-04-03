@@ -1,0 +1,25 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/readingIsGood_db
+
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+# Server configuration
+server:
+  port: 446
+
+#Logging
+logging:
+  file:
+    name: ./logs/readingIsGood.log
+    path: ./logs
+  logback:
+    rollingpolicy:
+      file-name-pattern: ./logs/readingIsGood_%d{yyyy-MM-dd}.%i.log
+      max-file-size: 1000MB
+      max-history: 100000
+      clean-history-on-start: false
+  level:
+    root: info
